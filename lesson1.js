@@ -5,7 +5,6 @@ const tfTemp = ( 9 / 5 ) * +tcTemp + 32;
 console.log( tfTemp );
 
 
-
 // Задание 2 
 let firstName;
 let admin;
@@ -14,11 +13,8 @@ admin = firstName;
 console.log( admin ); //Василий
 
 
-
 // Задание 3
 console.log( 1000 + "108" ); //Ответ 1000108
-
-
 
 
 // Задание 4

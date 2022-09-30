@@ -28,7 +28,6 @@ if ( firstValue >= 0 && secondValue >= 0 ) {
 }
 
 //Задание 4. Присвоить переменной а значение в промежутке [0..15]. С помощью оператора switch организовать вывод чисел от a до 15.
-
 let value = 5;
 function counter ( value ) {
     switch ( value ) {
@@ -69,7 +68,6 @@ counter( value );
 
 
 //Задание 5. Реализовать основные 4 арифметические операции в виде функций с двумя параметрами. Обязательно использовать оператор return.
-
 firstValue = -4;
 secondValue = -10;
 function subtraction ( value1, value2 ) {
@@ -90,6 +88,7 @@ console.log( `Их разница: ${ subtraction( firstValue, secondValue ) }` 
 console.log( `Их произведение: ${ multiplication( firstValue, secondValue ) }` );
 console.log( `Их деление: ${ division( firstValue, secondValue ) }` );
 console.log( `Их сумма: ${ sum( firstValue, secondValue ) }` );
+
 
 //Задание 6.
 // Реализовать функцию с тремя параметрами: function mathOperation ( arg1, arg2, operation ), где arg1, arg2 – значения аргументов, operation – строка с названием операции.
