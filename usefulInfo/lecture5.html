@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <div id="id-test">
+        <h1 style="color: #f00" class="base">Тестовая страница</h1>
+        <div class="test-class">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, quis, soluta! Alias, aliquam asperiores
+                consectetur culpa error et facere fugiat ipsum molestias nemo, perspiciatis quae quam sit sunt suscipit
+                voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem distinctio et fugit non numquam
+                optio quod, reiciendis vel vero. Doloremque illo ipsa nihil nostrum pariatur sint temporibus. Commodi,
+                provident?</p>
+        </div>
+        <div class="test-class">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, quis, soluta! Alias, aliquam asperiores
+                consectetur culpa error et facere fugiat ipsum molestias nemo, perspiciatis quae quam sit sunt suscipit
+                voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem distinctio et fugit non numquam
+                optio quod, reiciendis vel vero. Doloremque illo ipsa nihil nostrum pariatur sint temporibus. Commodi,
+                provident?</p>
+        </div>
+    </div>
+    <div id="demo">
+    </div>
+    <!--<button onclick="alert('Hello!');alert('Bye!')">Click me!</button>-->
+    <!--<button onclick="sayHello()">Click me!</button>-->
+    <button class="my-btn">Click me!</button>
+    <script>
+        "use strict";
+    // function sayHello() {
+    //     // alert('Hello!');
+    //     // alert('Bye!');
+    //     hello();
+    //     bye();
+    // }
+    //
+    // function hello() {
+    //     alert('Hello!');
+    // }
+    //
+    // function bye() {
+    //     alert('Bye!');
+    // }
+    // const myBtn = document.querySelector('.my-btn');
+    // myBtn.onclick = sayHello;
+    // myBtn.onclick = hello;
+    // myBtn.onclick = bye;
+    // myBtn.addEventListener('click', hello);
+    // myBtn.addEventListener('click', bye);
+    // myBtn.addEventListener('click', function () {
+    //     console.log('foo');
+    // });
+    //
+    // myBtn.removeEventListener('click', bye);
+    // myBtn.removeEventListener('click', function () {
+    //     console.log('foo');
+    // });
+
+    // console.dir(document.getElementById('id-test'));
+    // console.dir(document.getElementsByClassName('test-class'));
+    // console.dir(document.getElementsByTagName('p'));
+    // console.dir(document.querySelector('.test-class:last-child'));
+    // console.dir(document.querySelectorAll('.test-class'));
+
+    // const pTags = document.querySelectorAll('p');
+    // for (let i = 0; i < pTags.length; i++) { // for of
+    //     console.log(pTags[i]);
+    // }
+
+    // const h1Tag = document.querySelector('h1');
+    // h1Tag.textContent += '<i>!</i>';
+    // h1Tag.innerHTML += '<i>!</i>';
+    //
+    // console.log(h1Tag.textContent);
+    // console.log(h1Tag.innerText);
+    // console.log(h1Tag.innerHTML);
+
+    // Bad
+    // for (let i = 0; i < 10; i++) {
+    //     document.getElementById('demo').innerHTML += `<div>Block # ${i}</div>`;
+    // }
+
+    // Good
+    // let totalHTMLString = '';
+    //
+    // for (let i = 0; i < 10; i++) {
+    //      totalHTMLString += `<div>Block # ${i}</div>`;
+    // }
+    //
+    // document.getElementById('demo').innerHTML = totalHTMLString;
+
+    // const h1Tag = document.querySelector('h1');
+    // h1Tag.style.backgroundColor = 'yellow';
+    // console.log(h1Tag.style);
+    // console.log(getComputedStyle(h1Tag));
+    // h1Tag.style.backgroundColor = 'yellow';
+    // h1Tag.className = 'myClass second';
+    // console.log(h1Tag.className);
+    // h1Tag.classList.add('myClass');
+    // h1Tag.classList.remove('myClass');
+    // h1Tag.classList.toggle('hidden');
+    // console.log(h1Tag.classList);
+    // console.log(h1Tag.classList.contains('hidden'));
+
+    // const myDiv = document.createElement('div');
+    // const i = document.createElement('i');
+    //
+    // myDiv.appendChild(i);
+    // i.textContent = 'Hello world!';
+    //
+    // // console.log(myDiv, i);
+    // document.body.appendChild(myDiv);
+
+    // document.body.insertAdjacentHTML('beforebegin', '<div><i>Hello World!</i></div>');
+    // document.body.insertAdjacentHTML('afterbegin', '<div><i>Hello World!</i></div>');
+    // document.body.insertAdjacentHTML('beforeend', '<div><i>Hello World!</i></div>');
+    // document.body.insertAdjacentHTML('afterend', '<div><i>Hello World!</i></div>');
+
+    // const h1Tag = document.querySelector('h1');
+    // const h1Tag = document.querySelector('h1').cloneNode(true);
+    // const parentElement = document.querySelector('#id-test');
+    // const refElement = document.querySelector('.test-class:last-child');
+    //
+    // parentElement.insertBefore(h1Tag, refElement);
+
+    // const h1Tag = document.querySelector('h1');
+    // h1Tag.remove();
+    // h1Tag.parentElement.removeChild(h1Tag);
+    // document.body.innerHTML = '';
+
+    // window.addEventListener('load', function () {
+    //     //...
+    // });
+    // document.addEventListener('DOMContentLoaded', function () {
+    //     //...
+    // });
+    // window.addEventListener('beforeunload', function () {
+    //     //...
+    // })
+    </script>
+</body>
+
+</html>
